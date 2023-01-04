@@ -1,0 +1,5 @@
+var searchIndex = JSON.parse('{\
+"ordered_vec":{"doc":"The <code>OrdVec</code> trait provides an extension to <code>Vec</code> to allow for …","t":[8,3,11,11,11,11,11,11,11,11,10,11,11,11,11],"n":["OrdVec","OrdVecError","borrow","borrow_mut","eq","fmt","fmt","from","into","provide","push_ord","to_string","try_from","try_into","type_id"],"q":["ordered_vec","","","","","","","","","","","","","",""],"d":["A trait for adding elements to a vector in sorted order","","","","","","","Returns the argument unchanged.","Calls <code>U::from(self)</code>.","","Inserts <code>item</code> into <code>self</code> in sorted order. Returns the index …","","","",""],"i":[0,0,1,1,1,1,1,1,1,1,10,1,1,1,1],"f":[0,0,[[]],[[]],[[1,1],2],[[1,3],4],[[1,3],4],[[]],[[]],[5],[[],[[7,[6,1]]]],[[],8],[[],7],[[],7],[[],9]],"p":[[3,"OrdVecError"],[15,"bool"],[3,"Formatter"],[6,"Result"],[3,"Demand"],[15,"usize"],[4,"Result"],[3,"String"],[3,"TypeId"],[8,"OrdVec"]]}\
+}');
+if (typeof window !== 'undefined' && window.initSearch) {window.initSearch(searchIndex)};
+if (typeof exports !== 'undefined') {exports.searchIndex = searchIndex};

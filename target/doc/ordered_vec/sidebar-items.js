@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["OrdVecError",""]],"trait":[["OrdVec","A trait for adding elements to a vector in sorted order"]]};
