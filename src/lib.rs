@@ -14,6 +14,17 @@
 //!
 //! assert_eq!(values, [1, 3, 5, 7]);
 //! ```
+//! ```
+//! use ordered_vec::OrdVec;
+//!
+//! let mut values: Vec<i32> = Vec::new();
+//! values.push_ord_descending(5);
+//! values.push_ord_descending(3);
+//! values.push_ord_descending(7);
+//! values.push_ord_descending(1);
+//!
+//! assert_eq!(values, [7, 5, 3, 1]);
+//! ```
 
 use std::cmp::Ordering;
 
