@@ -1,9 +1,9 @@
 [package]
 name = "ordered_vec"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["bwinter"]
-description = "A trait that ensures that elements in a vector are pushed in a sorted order."
+description = "A trait that ensures that elements in a vector are pushed in a sorted order (both ascending and descending)."
 documentation = "https://docs.rs/ordered_vec/0.1.0/ordered_vec/"
 include = ["Cargo.toml", "src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
 keywords = ["ordered", "vector", "sorted", "trait"]
